@@ -1,8 +1,7 @@
-import java.util.*;
+
 public class tryoutstuff {
     public static void main(String[] args) {
         char[] nums = { 'p', 'q', 'r', 's' };
-        String str = String.valueOf(nums);
         System.out.println(nums);
 
 
