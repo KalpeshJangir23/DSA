@@ -1,3 +1,4 @@
+package StriverQuestion;
 import java.util.Scanner;
 
 public class A1537 {

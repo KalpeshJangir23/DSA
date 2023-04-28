@@ -1,62 +1,46 @@
+import java.util.Scanner;
 
+// /* package codechef; // don't place package name! */
+
+// import java.util.*;
+// import java.lang.*;
+// import java.io.*;
+
+// /* Name of the class has to be "Main" only if the class is public. */
+// class Codechef
+// {
+//         public static int optimalScore(int[] A) {
+//         int n = A.length;
+//         Arrays.sort(A); 
+
+       
+//         return A[n-1] - A[0];
+//     }
+// 	public static void main (String[] args) throws java.lang.Exception
+// 	{
+// 	    Scanner sc = new Scanner(System.in);
+     
+//         int t = sc.nextInt();
+// 	 while(t-- >0){
+//             int length = sc.nextInt();
+//             int[] arr = new int[length];
+//             for (int i = 0; i < arr.length; i++) {
+//                 arr[i] = sc.nextInt();
+//             }
+//             System.out.println(optimalScore(arr));
+//         }
+// 	}
+// }
+
+/**
+ * tryoutstuff
+ */
 public class tryoutstuff {
+
     public static void main(String[] args) {
-        char[] nums = { 'p', 'q', 'r', 's' };
-        System.out.println(nums);
-
-
-
-
-
-
-
-
-
-
-
-        // int[] nums = {4,3,2,7,8,2,3,1};
-        // int[] arr = new int[nums.length];
-        // int i;
-        // int j;
-        // for(i=0;i<nums.length;i++){
-        //     for(j=i+1; j< nums.length;j++){
-        //         if(nums[i]== nums[j]){
-        //             arr[j] = nums[j];
-        //         }
-        //     }
-        // }
-        // for (int j2 = 0; j2 < arr.length; j2++) {
-        // //  if (arr[j2]>0) {
-        //     System.out.println(arr[j2]);
-        // //  }
-        //  } 
-        
+        int[] nums = { 1, 2, 3, 4, 5, 6};
+        Scanner s = new Scanner(System.in);
+        int k = s.nextInt();
+        int n = nums.length - 1;
     }
-
 }
-
-
-
-
-        // int[] arr = {5,8,84,81};
-        // for (int i = 0; i < arr.length-1; i++) {
-        //     for (int j = i+1; j < arr.length; j++) {
-        //         System.out.println(i +"    "+ j);
-        //     }
-        // }
-
-
-
-
-
-        // double celsius = 36.50;
-        // double[] result = new double[2];
-        // double kelvin = celsius + 273.15;
-        // double fahrenheit = celsius * 1.80 + 32.00;
-        // result[0] = kelvin;
-        // result[1] = fahrenheit;
-        // for (int i = 0; i < result.length; i++) {
-        //     System.out.println(result[i]);
-        // }
-  //  }
-//}
