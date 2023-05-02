@@ -1,8 +1,12 @@
+import java.util.Arrays;
+
 public class ic66 {
     public static void main(String[] args) {
         int[] digit = { 1, 2, 3 };
         int i, k = 0;
         int j = 0;
+        Arrays.sort(digit);
+        System.out.println(digit[digit.length-1]);
         for (i = 0; i < digit.length-1; i++) {
             k = 10 * k + digit[i];
             System.out.println(k);
