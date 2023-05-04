@@ -7,31 +7,25 @@ import java.util.List;
 
 public class la {
     public static void main(String[] args) {
-        int[] nums = { -1, 0, 1, 2, -1, -4 };
-        
-        List<Integer> list = new ArrayList<Integer>();
-        List<Integer> list2 = new ArrayList<Integer>();
-        HashSet<Integer> Hset = new HashSet<Integer>(list);
-        int i = 0;
-        int j = 0;
-        int k = 0;
+        int[] arr = { 2,3,4,7,11 };
+        int k = 5;
 
-        for ( i = 0; i < nums.length; i++) {
-            for ( j = 0; j < nums.length; j++) {
-                for ( k = 0; k < nums.length; k++) {
-                    if (i != j && i != k && j != k && nums[i] + nums[j] + nums[k] == 0) {
-                        list.add(nums[i]);
-                        list.add(nums[j]);
-                        list.add(nums[k]);
-                        list2.addAll(i, list);
-                    }
-                }
-            }
-            list2.addAll(i, list);
-
-            for (int j2 = 0; j2 < nums.length; j2++) {
-                System.out.print(list2.get(j2) + " ");
-            }
+        ArrayList<Integer> list1 = new ArrayList<Integer>();
+        for (int i = 1; i <= 1000; i++) {
+            list1.add(i);
         }
+
+        ArrayList<Integer> list2 = new ArrayList<Integer>();
+        for (int i = 0; i < arr.length; i++) {
+            list2.add(arr[i]);
+        }
+
+        for (int i = 0; i < list2.size(); i++) {
+            list1.remove(Integer.valueOf(list2.get(i)));
+        }
+
+        int y = list1.get(k - 1);
+        System.out.println(y);
+
     }
 }
