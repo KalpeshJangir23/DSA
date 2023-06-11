@@ -12,6 +12,9 @@ public class lc {
             count++;
         }
         System.out.println(count);
+        for (int i = 0; i < args.length; i++) {
+            
+        }
 
     }
 }
